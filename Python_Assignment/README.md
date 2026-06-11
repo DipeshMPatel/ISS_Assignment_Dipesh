@@ -1,6 +1,6 @@
 # Python Assignment
 
-## 1. Variables and Constants
+## 1. Variables
 ![Variables Output](outputs/1-variables.png)
 
 ## 2. Constants
