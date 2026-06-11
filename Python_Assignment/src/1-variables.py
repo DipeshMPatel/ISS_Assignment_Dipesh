@@ -10,6 +10,6 @@ print(f"Height:{height}")
 a, b, c = 1, 2, 3       # Multiple Assignment
 print(f"a:{a}, b:{b}, c:{c}")
 
-a = "Dynamic"           #Does not give any erroe as python is dynamically typed
+a = "Dynamic"           # Does not give any error as python is dynamically typed
 print("After Reassignment:")
 print(f"a:{a}")
