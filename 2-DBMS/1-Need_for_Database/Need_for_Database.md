@@ -73,4 +73,4 @@ Using a database allows administrators, teachers, and students to efficiently ac
 ## Conclusion
 
 Databases are essential for modern applications because they provide efficient data storage, retrieval, security, integrity, concurrency control, backup facilities, and scalability. They help organizations manage data reliably while minimizing redundancy and maintaining consistency.
-```
+

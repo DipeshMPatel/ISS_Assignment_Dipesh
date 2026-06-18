@@ -203,4 +203,4 @@ A table is in Fifth Normal Form if:
 ## Conclusion
 
 Normalization improves database design by reducing redundancy, eliminating anomalies, and maintaining data consistency. Most practical database systems are normalized up to 3NF or BCNF, providing a good balance between data integrity and performance.
-```
+
