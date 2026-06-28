@@ -1,0 +1,109 @@
+/* Page Styling */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eef4fb;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+
+/* Form Container */
+
+.container {
+    background-color: white;
+    width: 420px;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.20);
+}
+
+
+/* Heading */
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #1d3b8d;
+}
+
+
+/* Labels */
+
+label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+
+/* Input Fields */
+
+input,
+select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #c4c4c4;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+
+/* Radio Button & Checkbox */
+
+input[type="radio"],
+input[type="checkbox"] {
+    width: auto;
+    margin-right: 3px;
+}
+
+
+/* Submit Button */
+
+button {
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #049869;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+/* Hover Effect */
+
+button:hover {
+    background-color: #47aa8b;
+}
+
+
+/* Message Box */
+
+.message {
+    margin-top: 15px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 6px;
+    display: none;
+}
+
+
+/* Success Message */
+
+.success {
+    background-color: #dbfee2;
+    color: #068104;
+}
+
+
+/* Error Message */
+
+.error {
+    background-color: #fde2e2;
+    color: #b91c1c;
+}
