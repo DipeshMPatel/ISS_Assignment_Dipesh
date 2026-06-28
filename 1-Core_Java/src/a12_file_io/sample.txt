@@ -1,0 +1,3 @@
+Hello Dipesh!
+Welcome to Java File I/O. 
+This is inside sample.txt file
