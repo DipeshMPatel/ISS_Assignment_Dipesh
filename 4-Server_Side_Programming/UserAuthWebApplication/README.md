@@ -10,7 +10,7 @@ Unlike the HelloWorld Web Application, this project adopts the **annotation-base
 
 - User Registration with Name, Email, and Password.
 - Login Authentication using Email and Password.
-- Session-based User Authentication.
+- Protected Welcome Page accessible only after successful login.
 - Logout functionality using Session Invalidation.
 - Protected Welcome Page accessible only after successful login.
 - Client-side Form Validation using JavaScript.
@@ -422,7 +422,7 @@ http://localhost:8080/UserAuthWebApplication/
 
 After completing this project, the following concepts were understood:
 
-- Creating a complete Java Web Application using Servlets and JSP.
+- Developing a basic Java Web Application using Servlets and JSP.
 - Processing HTML forms using Servlets.
 - Connecting Java applications with MySQL using JDBC.
 - Implementing user authentication and authorization.
