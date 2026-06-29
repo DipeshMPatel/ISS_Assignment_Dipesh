@@ -81,7 +81,7 @@ Browser Displays
 
 ### Homepage
 
-![Homepage](outputs\Index.png)
+![Homepage](outputs/Index.png)
 
 ---
 

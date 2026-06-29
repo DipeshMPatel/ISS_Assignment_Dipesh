@@ -79,33 +79,35 @@ UserAuthWebApplication/
 User Opens Application
         │
         ▼
-      index.jsp
+     index.jsp
 (Login Page)
         │
         ▼
 Enters Email & Password
         │
         ▼
-      LoginServlet
+    LoginServlet
         │
-        ├───────────────┐
-        │               │
- Valid User         Invalid User
-        │               │
-        ▼               ▼
-Create Session    Display Error
-        │               │
-        ▼               │
-  welcome.jsp ◄─────────┘
+        ├─────────────────────────────┐
+        │                             │
+        ▼                             ▼
+ Credentials Valid          Credentials Invalid
+        │                             │
+        ▼                             ▼
+ Create HTTP Session        Forward to index.jsp
+        │                   Display Error Message
+        ▼
+ Redirect to
+ welcome.jsp
         │
         ▼
-Click Logout
+ Click Logout
         │
         ▼
  LogoutServlet
         │
         ▼
-Session Invalidated
+Invalidate Session
         │
         ▼
 Redirect to index.jsp
