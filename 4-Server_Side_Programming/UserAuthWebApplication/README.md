@@ -432,7 +432,7 @@ After completing this project, the following concepts were understood:
 - Protecting pages from unauthorized access.
 - Performing client-side validation using JavaScript.
 - Using `PreparedStatement` to execute SQL queries securely.
-- Organizing a Dynamic Web Project using packages such as `model`, `dao`, and `servlet`.
+- Organizing a Dynamic Web Project using packages such as `model`, `dao(Data Access Object)`, and `servlet`.
 - Deploying and running Java Web Applications on Apache Tomcat.
 
 ---
@@ -449,7 +449,7 @@ Some possible enhancements that can be added to this project include:
 - Input validation using Regular Expressions on the server side.
 - Role-based Authentication (Admin/User).
 - Migration to Maven for dependency management.
-- Adoption of the DAO Design Pattern with separate CRUD methods.
+- Adoption of the DAO(Data Access Object) Design Pattern with separate CRUD methods.
 - Migration to Spring Boot and Spring Security for enterprise-level development.
 
 ---
